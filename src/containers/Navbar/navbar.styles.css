@@ -3,5 +3,44 @@
   display: flex;
   flex: 1;
   flex-direction: row;
+  border: 2px solid var(--custom);
   background-color: var(--secondary);
+}
+.navbar-menu-container {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  align-items: center;
+}
+.navbar-inner-container {
+  display: flex;
+  flex: 4;
+  justify-content: center;
+}
+.navbar-logo-container {
+  display: flex;
+  width: 20%;
+  height: 70px;
+}
+
+.navbar-logo-image-full {
+  width: 100%;
+}
+.navbar-logo-image-mobile {
+  display: none;
+}
+.navbar-menu-icon:hover {
+  box-sizing: content-box;
+  border-radius: 50%;
+  background-color: var(--custom);
+  color: var(--secondary);
+}
+@media screen and (max-width: 320px) {
+  .navbar-logo-image-full {
+    display: none;
+  }
+  .navbar-logo-image-mobile {
+    width: 100%;
+    display: flex;
+  }
 }

@@ -19,10 +19,17 @@
 }
 .sidebar-row-container:hover > .sidebar-row-text {
   text-decoration: underline;
+  color: var(--secondary);
 }
 .sidebar-row-list {
   padding-top: 20px;
   display: flex;
   width: 100%;
   flex-direction: column;
+}
+.sidebar-row-icon {
+  padding-top: 2px;
+}
+.sidebar-row-container:hover > .sidebar-row-icon {
+  color: var(--secondary);
 }

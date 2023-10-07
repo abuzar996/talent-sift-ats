@@ -7,4 +7,15 @@
   background-color: var(--main);
   align-items: flex-start;
   height: 100%;
+  width: 100%;
+}
+
+.sidebar-logo-container {
+  display: flex;
+  width: 20%;
+  height: 70px;
+}
+
+.sidebar-logo-image-full {
+  width: 100%;
 }

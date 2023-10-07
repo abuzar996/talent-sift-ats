@@ -1,5 +1,5 @@
 import "./App.css";
-import Sidebar from "./containers/Sidebar";
+import Sidebar from "./containers/Navbar";
 function App() {
   return (
     <div className="App theme layout">
