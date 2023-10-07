@@ -8,6 +8,12 @@
   --textSecondary: #111827;
   --textCustom: #b5b5b5;
 }
+.no-highlight {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-text-select: none;
+  -webkit-user-select: none;
+}
 .layout {
   margin: 0;
   padding: 0;

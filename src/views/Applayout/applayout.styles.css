@@ -11,10 +11,15 @@
   width: 100%;
 }
 .app-layout-sidebar-container {
+  transition: 2.2s cubic-bezier(0.36, -0.01, 0, 0.77);
   box-sizing: border-box;
   display: flex;
   width: 20%;
   height: 100%;
+}
+
+.app-layout-sidebar-container-none {
+  display: none;
 }
 .app-layout-main-view {
   display: flex;
@@ -23,11 +28,15 @@
   height: 100%;
 }
 .app-layout-main-container {
+  box-sizing: border-box;
   display: flex;
   width: 80%;
+  border: 2px solid var(--custom);
   background-color: var(--main);
 }
 .app-layout-main-container-full {
+  box-sizing: border-box;
+  border: 2px solid var(--custom);
   display: flex;
   width: 100%;
   background-color: var(--main);
