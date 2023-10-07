@@ -5,7 +5,7 @@ const RowContentList = () => {
   return (
     <div className="sidebar-row-list">
       {data.map((row) => (
-        <RowContent {...row} />
+        <RowContent key={row.id} {...row} />
       ))}
     </div>
   );
